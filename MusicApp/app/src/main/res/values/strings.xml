@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">Music App</string>
+  <string name="classic">Classic</string>
+  <string name="rock">Rock</string>
+  <string name="music_type">Music Type</string>
+  <string name="buy">Buy</string>
+  <string name="play">Play</string>
+  <string name="visa">Visa</string>
+  <string name="credit_card">Credit Card</string>
+  <string name="pay_method">Payment Method</string>
+</resources>

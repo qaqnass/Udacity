@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Musique App</string>
+  <string name="classic">Classique</string>
+  <string name="rock">Rock</string>
+  <string name="music_type">Type de musique</string>
+  <string name="buy">acheter</string>
+  <string name="play">jouer</string>
+  <string name="pay_method">Mode de paiement</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nanoddegree.musicapp.Rock">
+
+  <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:orientation="horizontal"
+      tools:context="com.example.android.miwok.MainActivity"
+      tools:layout_constraintTop_creator="1"
+      tools:layout_constraintRight_creator="1"
+      tools:layout_constraintBottom_creator="1"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      tools:layout_constraintLeft_creator="1"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/rock"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/rockBuy"
+        style="@style/MusicType"
+        android:text="@string/buy"
+        android:layout_weight="2"/>
+
+    <TextView
+        style="@style/MusicType"
+        android:text="@string/play"
+        android:layout_weight="2"/>
+
+
+  </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
