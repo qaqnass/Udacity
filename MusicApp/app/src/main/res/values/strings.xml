@@ -8,4 +8,13 @@
   <string name="visa">Visa</string>
   <string name="credit_card">Credit Card</string>
   <string name="pay_method">Payment Method</string>
+  <string name="main_activity_detail">This is the main page, which allow user to visit all music pages</string>
+  <string name="classic_activity_detail">This is the classic page, which contain all classic musics</string>
+  <string name="rock_activity_detail">This is the Rock page, which contain all Rock musics</string>
+  <string name="play_activity_detail">This is a play page music, allow user to listening  and buy music if they interesting</string>
+
+  <string name="label_main_activity">List Music</string>
+  <string name="label_classic_activity">Classic Musics</string>
+  <string name="label_rock_activity">Rock Musics</string>
+  <string name="label_play_activity">Playing Now</string>
 </resources>

@@ -18,7 +18,7 @@ public class Classic extends AppCompatActivity {
     buy.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
-        Intent intent = new Intent(Classic.this, Pay.class);
+        Intent intent = new Intent(Classic.this, Play.class);
         startActivity(intent);
       }
     });

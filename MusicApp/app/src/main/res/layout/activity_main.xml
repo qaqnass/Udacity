@@ -22,6 +22,10 @@
       app:layout_constraintTop_toTopOf="parent">
 
     <TextView
+        style="@style/LabelTextView"
+        android:text="@string/label_main_activity"/>
+
+    <TextView
         android:id="@+id/classic"
         style="@style/CategoryStyle"
         android:text="@string/classic"/>
@@ -31,6 +35,9 @@
         style="@style/CategoryStyle"
         android:text="@string/rock"/>
 
+    <TextView
+        style="@style/DetailTextView"
+        android:text="@string/main_activity_detail"/>
 
   </LinearLayout>
 </android.support.constraint.ConstraintLayout>
